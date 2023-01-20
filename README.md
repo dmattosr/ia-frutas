@@ -24,7 +24,7 @@ pip install -r requirements.txt
 
 
 
-# Entrenamiento
+#
 
 ´´´bash
 
@@ -32,9 +32,7 @@ python training
 
 python testing
 
-# python test-camara
-
-pip install PyQt5
+python test-camara
 
 ´´´
 
