@@ -7,7 +7,7 @@ Python 3.9
 
 # Instalación del entorno
 
-´´´bash
+```bash
 
 virtualenv --python=python3.9 venv
 
@@ -15,18 +15,16 @@ source venv/bin/activate
 
 pip install -r requirements.txt
 
-´´´
+```
 
 [PyTorch](https://www.gcptutorials.com/post/how-to-install-pytorch-with-pip)
 
 
 
 
+# Scripts
 
-
-#
-
-´´´bash
+```bash
 
 python training
 
@@ -34,7 +32,7 @@ python testing
 
 python test-camara
 
-´´´
+```
 
 
 
