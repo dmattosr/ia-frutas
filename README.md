@@ -22,7 +22,7 @@ Python 3.9
 
 ```bash
 
-virtualenv --python=python3.9 venv
+virtualenv --python=python3.10 .venv
 
 source venv/bin/activate
 

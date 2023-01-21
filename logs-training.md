@@ -5,8 +5,8 @@ Log del Entrenamiento
 
 Number of Samples in Train:  84
 Number of Samples in Valid:  9
-Number of Samples in Test:  5
-Total:  98
+Number of Samples in Test:  11
+Total:  104
 Number of Classes:  2
 ['buenas', 'malas']
 cpu
@@ -132,60 +132,61 @@ Starting Epoch 2
 Starting Epoch 3
 Starting Epoch 4
 Starting Epoch 5
-No. epochs: 5 	Training Loss: 0.019 	Valid Loss 0.054 	Valid Accuracy 1.0
+No. epochs: 5 	Training Loss: 0.007 	Valid Loss 1.464 	Valid Accuracy 0.556
 Starting Epoch 6
 Starting Epoch 7
 Starting Epoch 8
 Starting Epoch 9
 Starting Epoch 10
-No. epochs: 10 	Training Loss: 0.001 	Valid Loss 0.003 	Valid Accuracy 1.0
+No. epochs: 10 	Training Loss: 0.002 	Valid Loss 1.173 	Valid Accuracy 0.778
 Starting Epoch 11
 Starting Epoch 12
 Starting Epoch 13
 Starting Epoch 14
 Starting Epoch 15
-No. epochs: 15 	Training Loss: 0.008 	Valid Loss 0.458 	Valid Accuracy 0.889
+No. epochs: 15 	Training Loss: 0.005 	Valid Loss 0.267 	Valid Accuracy 0.889
 Starting Epoch 16
 Starting Epoch 17
 Starting Epoch 18
 Starting Epoch 19
 Starting Epoch 20
-No. epochs: 20 	Training Loss: 0.002 	Valid Loss 0.0 	Valid Accuracy 1.0
+No. epochs: 20 	Training Loss: 0.009 	Valid Loss 1.063 	Valid Accuracy 0.556
 Starting Epoch 21
 Starting Epoch 22
 Starting Epoch 23
 Starting Epoch 24
 Starting Epoch 25
-No. epochs: 25 	Training Loss: 0.007 	Valid Loss 0.001 	Valid Accuracy 1.0
+No. epochs: 25 	Training Loss: 0.042 	Valid Loss 0.834 	Valid Accuracy 0.889
 Starting Epoch 26
 Starting Epoch 27
 Starting Epoch 28
 Starting Epoch 29
 Starting Epoch 30
-No. epochs: 30 	Training Loss: 0.002 	Valid Loss 0.0 	Valid Accuracy 1.0
+No. epochs: 30 	Training Loss: 0.009 	Valid Loss 0.382 	Valid Accuracy 0.889
 Starting Epoch 31
 Starting Epoch 32
 Starting Epoch 33
 Starting Epoch 34
 Starting Epoch 35
-No. epochs: 35 	Training Loss: 0.0 	Valid Loss 0.0 	Valid Accuracy 1.0
+No. epochs: 35 	Training Loss: 0.001 	Valid Loss 0.252 	Valid Accuracy 0.889
 Starting Epoch 36
 Starting Epoch 37
 Starting Epoch 38
 Starting Epoch 39
 Starting Epoch 40
-No. epochs: 40 	Training Loss: 0.0 	Valid Loss 0.001 	Valid Accuracy 1.0
+No. epochs: 40 	Training Loss: 0.0 	Valid Loss 0.036 	Valid Accuracy 1.0
 Starting Epoch 41
 Starting Epoch 42
 Starting Epoch 43
 Starting Epoch 44
 Starting Epoch 45
-No. epochs: 45 	Training Loss: 0.0 	Valid Loss 0.045 	Valid Accuracy 1.0
+No. epochs: 45 	Training Loss: 0.002 	Valid Loss 0.151 	Valid Accuracy 0.889
 Starting Epoch 46
 Starting Epoch 47
 Starting Epoch 48
 Starting Epoch 49
 Starting Epoch 50
-No. epochs: 50 	Training Loss: 0.0 	Valid Loss 0.053 	Valid Accuracy 1.0
+No. epochs: 50 	Training Loss: 0.0 	Valid Loss 0.043 	Valid Accuracy 1.0
+
 
 ```
