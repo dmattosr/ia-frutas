@@ -16,7 +16,7 @@ Detección de Naranjas en buenas y malas
 
 # Version de Python
 
-Python 3.9
+Python 3.10
 
 # Instalación del entorno
 
