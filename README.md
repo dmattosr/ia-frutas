@@ -100,6 +100,22 @@ python testing
 ![Test 11](/imagenes/test11.png)
 
 
+# | ETIQUETADA | SEGUN MODELO | %
+1 | BUENA | BUENA | 70
+2 | BUENA | BUENA | 70
+3 | BUENA | BUENA | 70
+4 | BUENA | BUENA | 70
+5 | MALA | MALA | 65
+6 | MALA | MALA | 65
+7 | MALA | MALA | 62
+8 | MALA | MALA | 71
+9 | MALA | MALA | 70
+10 | MALA | MALA | 70
+11 | MALA | MALA | 68
+
+
+
+
 # Camara
 
 ```bash
