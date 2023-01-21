@@ -1,7 +1,20 @@
-Detección de Naranjas en buen y mal estado
+Detección de Naranjas en buenas y malas
 ======
 
-# Version de python
+# Dataset
+
+## Naranjas Buenas
+
+![Naranjas Buenas](/imagenes/naranjas-buenas.png)
+
+## Naranjas Malas
+
+![Naranjas Malas](/imagenes/naranjas-malas.png)
+
+
+
+
+# Version de Python
 
 Python 3.9
 
@@ -22,7 +35,7 @@ pip install -r requirements.txt
 
 
 
-# Entrenar
+# Entrenamiento
 
 ```bash
 
@@ -62,11 +75,13 @@ python testing
 
 
 
+# Redimensionar imagenes
 
+```bash
 
-python testing
+find . -maxdepth 1 -iname "*.jpg" | xargs -L1 -I{} convert -resize 500x500 "{}" resize/"{}"
 
-python test-camara
+```
 
 # Basado en
 
@@ -87,13 +102,3 @@ https://www.sciencedirect.com/science/article/pii/S2352340922007594
 https://data.mendeley.com/datasets/bdd69gyhv8/1
 
 https://data.mendeley.com/public-files/datasets/bdd69gyhv8/files/ccd1f142-03b2-473a-8c78-78920e63b8bd/file_downloaded
-
-
-# Redimensionar imagenes
-
-
-```bash
-
-find . -maxdepth 1 -iname "*.jpg" | xargs -L1 -I{} convert -resize 500x500 "{}" resize/"{}"
-
-```
