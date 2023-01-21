@@ -33,6 +33,9 @@ pip install -r requirements.txt
 [PyTorch](https://www.gcptutorials.com/post/how-to-install-pytorch-with-pip)
 
 
+# Recorte y preparacion de fotos
+
+![Recorte de fotos](/imagenes/recortar-fotos.jpeg)
 
 
 # Entrenamiento
@@ -52,7 +55,7 @@ python training
 ![Valid Loss and Valid Accuracy](/imagenes/ValidLossandValidAccuracy.png)
 
 
-# Probar
+# Pruebas
 
 ```bash
 
