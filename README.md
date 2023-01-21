@@ -30,6 +30,9 @@ python training
 
 ```
 
+[Logs](logs-training.md)
+
+
 ![Valid Loss and Train Loss](/imagenes/ValidLossandTrainLoss.png)
 
 
@@ -46,10 +49,15 @@ python testing
 
 
 ![Test 1](/imagenes/test1.png)
+
 ![Test 2](/imagenes/test2.png)
+
 ![Test 3](/imagenes/test3.png)
+
 ![Test 4](/imagenes/test4.png)
+
 ![Test 5](/imagenes/test5.png)
+
 ![Test 6](/imagenes/test6.png)
 
 
