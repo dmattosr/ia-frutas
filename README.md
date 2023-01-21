@@ -22,20 +22,37 @@ pip install -r requirements.txt
 
 
 
-# Scripts
+# Entrenar
 
 ```bash
 
 python training
 
+```
+
+![Valid Loss and Train Loss](Valid Loss and Train Loss.png)
+
+
+![Valid Loss and Valid Accuracy](Valid Loss and Valid Accuracy.png)
+
+
+# Probar
+
+```bash
+
+python testing
+
+```
+
 python testing
 
 python test-camara
 
-```
+# Basado en
 
+https://iqraanwar.medium.com/how-to-detect-rotten-fruits-using-image-processing-python-be2d39abc709
 
-
+https://github.com/IqraBaluch/Detection-of-Rotten-Fruits-DRF-Using-Image-Processing-Python
 
 
 # Automatic classification of oranges using image processing and data mining techniques (Argentina)
@@ -52,7 +69,11 @@ https://data.mendeley.com/datasets/bdd69gyhv8/1
 https://data.mendeley.com/public-files/datasets/bdd69gyhv8/files/ccd1f142-03b2-473a-8c78-78920e63b8bd/file_downloaded
 
 
+# Redimensionar imagenes
 
 
-https://github.com/IqraBaluch/Detection-of-Rotten-Fruits-DRF-Using-Image-Processing-Python
+```bash
 
+find . -maxdepth 1 -iname "*.jpg" | xargs -L1 -I{} convert -resize 500x500 "{}" resize/"{}"
+
+```

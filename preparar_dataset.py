@@ -23,7 +23,7 @@ for (ruta_fuente, clase) in (
         (RUTA_FUENTE_NARANJAS_FRESCAS, NARANJAS_FRESCA),
         (RUTA_FUENTE_NARANJAS_NOFRESCAS, NARANJAS_NOFRESCA)):
 
-    lista_archivos = os.listdir(ruta_fuente)[:50]
+    lista_archivos = os.listdir(ruta_fuente)
     my_shuffle(lista_archivos)
     lista_train = lista_archivos[:int(TRAIN * len(lista_archivos))]
     lista_test = lista_archivos[-int(TEST * len(lista_archivos)):]

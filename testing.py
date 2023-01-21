@@ -102,15 +102,11 @@ def predict(image_path, model, topk=5):
     conf = np.array(probs_top)[0]
     predicted = np.array(predicted_top)[0]
 
-    #return probs_top_list, index_top_list
     return conf, predicted
 
 
 def plot_solution(image_path, model_path):
-    #carname = cardir.split('/')[6]
     conf2, predicted1 = predict(image_path, model_path, topk=2)
-    print('conf2', conf2)
-    print('predicted1', predicted1)
     names = []
     for i in range(2):
         names += [classes[predicted1[i]]]
@@ -126,12 +122,6 @@ def plot_solution(image_path, model_path):
     ax[1].set_yticklabels(names)
     ax[1].invert_yaxis()
 
-
-"""
-imgdir = '/backup/.personal/UNI/2022-II/IA/TRABAJO-FINAL/dataset/test/naranjas_nofrescas/RottenOrange (56).jpg'
-imgdir = len(sys.argv) > 1 and sys.argv[1] or imgdir
-
-"""
 imgdir = input('Ingrese la ruta y nombre del archivo: ').strip()
 if imgdir.startswith('\'') and imgdir.endswith('\''):
     imgdir = imgdir[1:-1]
