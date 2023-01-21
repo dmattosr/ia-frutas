@@ -89,8 +89,24 @@ python testing
 
 ![Test 6](/imagenes/test6.png)
 
+![Test 7](/imagenes/test7.png)
+
+![Test 8](/imagenes/test8.png)
+
+![Test 9](/imagenes/test9.png)
+
+![Test 10](/imagenes/test10.png)
+
+![Test 11](/imagenes/test11.png)
 
 
+# Camara
+
+```bash
+
+python pyqt6cam
+
+```
 
 
 # Basado en
