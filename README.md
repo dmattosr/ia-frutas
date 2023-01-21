@@ -30,10 +30,10 @@ python training
 
 ```
 
-![Valid Loss and Train Loss](/ValidLossandTrainLoss.png)
+![Valid Loss and Train Loss](/imagenes/ValidLossandTrainLoss.png)
 
 
-![Valid Loss and Valid Accuracy](/ValidLossandValidAccuracy.png)
+![Valid Loss and Valid Accuracy](/imagenes/ValidLossandValidAccuracy.png)
 
 
 # Probar
@@ -43,6 +43,18 @@ python training
 python testing
 
 ```
+
+
+![Test 1](/imagenes/test1.png)
+![Test 2](/imagenes/test2.png)
+![Test 3](/imagenes/test3.png)
+![Test 4](/imagenes/test4.png)
+![Test 5](/imagenes/test5.png)
+![Test 6](/imagenes/test6.png)
+
+
+
+
 
 python testing
 
