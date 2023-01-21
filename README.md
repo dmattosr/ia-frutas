@@ -33,9 +33,22 @@ pip install -r requirements.txt
 [PyTorch](https://www.gcptutorials.com/post/how-to-install-pytorch-with-pip)
 
 
-# Recorte y preparacion de fotos
+# Recorte y preparacion de imagenes
+
+## Recorte
+Las fotografias tomadas se recortaron usando la aplicacion gThumb
 
 ![Recorte de fotos](/imagenes/recortar-fotos.jpeg)
+
+# Redimensionamiento de imagenes
+
+Para redimensionar a un tamaño de 500x500 se usó el utilitario convert de linea de comandos.
+
+```bash
+
+find . -maxdepth 1 -iname "*.jpg" | xargs -L1 -I{} convert -resize 500x500 "{}" resize/"{}"
+
+```
 
 
 # Entrenamiento
@@ -78,13 +91,7 @@ python testing
 
 
 
-# Redimensionar imagenes
 
-```bash
-
-find . -maxdepth 1 -iname "*.jpg" | xargs -L1 -I{} convert -resize 500x500 "{}" resize/"{}"
-
-```
 
 # Basado en
 
