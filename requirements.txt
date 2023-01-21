@@ -1,4 +1,4 @@
-matplotlib==3.6.3
+matplotlib
 
 # PyTorch for CP
 torch==1.10.0+cpu

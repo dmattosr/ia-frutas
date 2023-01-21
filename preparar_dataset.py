@@ -31,8 +31,8 @@ for (ruta_fuente, clase) in (
 
     params = [
         (RUTA_DESTINO_TRAIN, lista_train),
-        (RUTA_DESTINO_VALID, lista_test),
-        (RUTA_DESTINO_TEST, lista_valid),
+        (RUTA_DESTINO_VALID, lista_valid),
+        (RUTA_DESTINO_TEST, lista_test),
     ]
 
     for ruta_destino, lista_archivo in params:

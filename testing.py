@@ -121,10 +121,21 @@ def plot_solution(image_path, model_path):
     ax[1].set_yticks(y_names)
     ax[1].set_yticklabels(names)
     ax[1].invert_yaxis()
+save_replace = False
+if len(sys.argv) == 3:
+    save_replace = True
+if len(sys.argv) > 1:
+    imgdir = sys.argv[1]
+else:
+    imgdir = input('Ingrese la ruta y nombre del archivo: ').strip()
 
-imgdir = input('Ingrese la ruta y nombre del archivo: ').strip()
 if imgdir.startswith('\'') and imgdir.endswith('\''):
     imgdir = imgdir[1:-1]
 
 plot_solution(imgdir, 'modelFinal.pth')
-plt.show()
+
+if save_replace:
+    plt.savefig(imgdir)
+
+if not save_replace:
+    plt.show()
